@@ -32,11 +32,11 @@ class Twittertweets extends CI_Controller
 		);
 		// Footer menu 
 		$this->data->footer = array(
-		anchor('http://code.websoftwar.es/codeigniter-privacy-settings-example', 'Download Bitbucket' ,array('title' => 'Download Bitbucket', 'target' => '_blank')),
-		anchor('https://github.com/websoftwares/Codeigniter-privacy-settings-example', 'Download Github' ,array('title' => 'Download Github', 'target' => '_blank')),
+		anchor('http://code.websoftwar.es/ci-twitter-tweets', 'Download Bitbucket' ,array('title' => 'Download Bitbucket', 'target' => '_blank')),
+		anchor('https://github.com/websoftwares/ci-twitter-tweet', 'Download Github' ,array('title' => 'Download Github', 'target' => '_blank')),
 		anchor('http://www.famfamfam.com/lab/icons/silk', 'FAMFAMFAM Silk icons' ,array('title' => 'FAMFAMFAM Silk icons', 'target' => '_blank')),
 		anchor('https://twitter.com/#!/websoftwares', 'Follow me.' ,array('title' => 'Follow me', 'target' => '_blank'))
-		);		
+		);
 	}
 	public function index()
 	{
