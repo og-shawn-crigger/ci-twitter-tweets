@@ -1,0 +1,5 @@
+.twitter {padding:0; margin:0;}
+.twitter li {font-family:Arial, Helvetica, sans-serif;list-style:none;font-size: 11px;color:#3E4B59;clear:left;display:block; line-height:160%; padding:5px; border-bottom:1px dotted #555; width:200px;}
+.twitter li a {color: #4482B4;text-decoration:none;}
+.twitter li a:hover {text-decoration:underline;}
+.twitter li img {float:left; margin:0 5px 0 0;}
